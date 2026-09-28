@@ -1,0 +1,63 @@
+    @import url(https://fonts.googleapis.com/css2?family=Smokum&display=swap);
+    
+    body {
+      font-family:'Times New Roman', Times, serif;
+      text-align: center;
+      background-color: #fefffa;
+    }
+
+    .header {
+        background-color: #ebecff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 80px;
+    }
+
+    h1 { 
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #3a90b8;
+      font-size: 64px;
+    }
+
+    h2 {
+      font-family:'Times New Roman', Times, serif;
+      color: #0a4639;
+    }
+    
+    span {
+      color: #8d0b32;
+    }
+
+    p {
+      color: #2a0d77;
+      margin: 20px 200px 20px 200px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #currentPage{
+      font-size: 20px;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited{
+    text-decoration:none;
+    color:#3a90b8;
+    }
+    
+    a:hover{
+        text-decoration:underline;
+        color:#f700ff;
+    }
+    
+    a:active{
+        text-decoration:underline;
+        color:#ff8000;
+    }
