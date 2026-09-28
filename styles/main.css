@@ -6,7 +6,7 @@
       background-color: #fefffa;
     }
 
-    .header {
+    header {
         background-color: #ebecff;
         display: flex;
         justify-content: space-between;
@@ -14,13 +14,14 @@
         padding: 10px 80px;
     }
 
+
     h1 { 
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       color: #3a90b8;
       font-size: 64px;
     }
 
-    h2 {
+    h2, h3, dt {
       font-family:'Times New Roman', Times, serif;
       color: #0a4639;
     }
@@ -29,7 +30,7 @@
       color: #8d0b32;
     }
 
-    p {
+    p,dd {
       color: #2a0d77;
       margin: 20px 200px 20px 200px;
     }
@@ -60,4 +61,20 @@
     a:active{
         text-decoration:underline;
         color:#ff8000;
+    }
+
+    .quals{
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .quals th{
+    border-bottom:3px solid #4d8dee;
+    padding:5px;
+    }
+    
+    .quals td{
+        border-bottom:1px solid #3a6ab3;
+        padding:5px;
     }
